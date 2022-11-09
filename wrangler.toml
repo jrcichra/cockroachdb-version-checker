@@ -1,0 +1,10 @@
+name = "cockroachdb-version-checker"
+main = "src/index.ts"
+compatibility_date = "2022-10-22"
+
+kv_namespaces = [{ binding = "STATE", id = "97cdc78e718c4086af83055448e427fc", preview_id = "678869eb73734f31857fb2af6fa87e86" }]
+
+
+[triggers]
+crons = [ "24 * * * *" ]
+
